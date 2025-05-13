@@ -4,19 +4,11 @@
 
 
 
-import math
-def cal(rec):
-    if rec < 0:
-        raise AssertionError ("radio Negativo")
-    elif rec == 0:
-        raise AssertionError ("radio Negativo")
-    
-    rec = rec * rec
-    per = 2 * math.pi * ra
-    
-    return ar, per
+ladoa = int(input("Dame un lado: "))
+ladob = int(input("dame el otro lado:"))
 
-ra = float(input("Ingrese su radio: "))
-ar, per = cal(ra)
-print("area: ", ar)
-print("perimetro: ", per)
+area = ladoa * ladob
+perimetro = 2*ladoa + 2*ladob
+
+print("El valor del area es: ", area)
+print("El valor del perimetro es: ", perimetro)
